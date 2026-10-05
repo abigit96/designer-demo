@@ -111,5 +111,14 @@
       <td class="sticky action">${history}</td>
     </tr>`).join('');
 </script>
+<script>
+  // Fit the 1456px desktop layout into narrow windows (e.g. a preview pane)
+  function fit() {
+    const z = Math.min(1, innerWidth / 1456);
+    document.documentElement.style.zoom = z;
+    document.body.style.height = (innerHeight / z) + 'px';
+  }
+  fit(); addEventListener('resize', fit);
+</script>
 </body>
 </html>
