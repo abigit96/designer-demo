@@ -1,0 +1,37 @@
+/* ============================================================
+   DESIGN TOKENS — the designer's control panel.
+   Change a value here and the whole screen updates.
+   ============================================================ */
+:root {
+  /* Brand */
+  --color-primary: #52bba9;          /* New Material button, accents */
+  --color-primary-text: #000000;     /* text on primary button */
+  --color-nav-bg: #122925;           /* top navbar */
+  --color-nav-text: rgba(255, 255, 255, 0.64);
+  --color-nav-text-active: #ffffff;
+
+  /* Sidebar */
+  --color-sidebar-bg: #eef8f6;
+  --color-sidebar-active-bg: #dcf1ee;
+  --color-sidebar-active-text: #2b6158;
+  --color-sidebar-text: #4a5261;
+
+  /* Table */
+  --color-table-header-bg: #e9ecf1;
+  --color-table-border: #e2e8f0;
+  --color-text: #334155;
+  --color-text-muted: #94a3b8;
+
+  /* Typography */
+  --font-family: "Inter", -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-size-table-header: 16px;
+  --font-weight-table-header: 600;
+  --font-size-table-body: 14px;
+  --font-size-nav: 14px;
+  --font-size-chip: 12px;
+
+  /* Shape & spacing */
+  --radius-button: 4px;
+  --radius-chip: 16px;
+  --row-height: 51px;
+}
